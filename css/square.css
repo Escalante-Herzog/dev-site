@@ -1,0 +1,13 @@
+
+img.cover{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+}
+
+img.round { border-radius: 50%; }
+
+.center {text-align: center;}
+
+.right {float: right;}
+.left {float:left;}

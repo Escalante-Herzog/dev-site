@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
+
+.n-page{
+    font-family: Helvetica, SansSerif;
+    background-color:#f4f4f4;
+    text-align: center;
+    overflow-x: hidden;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "\";
+}
+.breadcrumb{ background-color: inherit;}
+.content-block{
+    min-height: 450px;
+    height: 100%;
+    box-sizing: content-box;
+}
+.nav-content li{
+    list-style: none;
+    display: inline-block;
+    color : lime;
+}
+a:hover { text-decoration:none; }
+
+.hero-content { height : 600px; color: white;}
+.secondary-color { background-color : #AA66CC !important;}
+.introduction { font-size: 24px;  font-family: 'Monda', sans-serif !important;}
+.header-introduction {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.hero-image {
+    height: 100%;
+    background-image:
+            radial-gradient(ellipse at center, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%),
+            url('../assets/images/heroImg.jpg');
+
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#about-me{
+    font-family: Helvetica;
+    font-size: 24px;
+    text-align: left;
+}
+.about-me{
+    background-color: #f4f4f4;
+}
+.machinations{
+    background-color: #d4d4d4;
+}
+.hackathons{
+    background-color: #f4f4f4;
+}
+.keep-in-touch{
+    background-color: #d4d4d4;
+}
